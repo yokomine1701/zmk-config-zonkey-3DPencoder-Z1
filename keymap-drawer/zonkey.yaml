@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LEFT CONTROL}
   - S
   - D
   - F
@@ -24,7 +24,7 @@ layers:
   - L
   - ''''
   - LEFT SHIFT
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - {t: C, h: '6'}
   - {t: V, h: '6'}
@@ -308,3 +308,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
